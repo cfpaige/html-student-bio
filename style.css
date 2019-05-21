@@ -43,9 +43,21 @@ h2 {
     width: 30%;
 }
 
-a {
+a:link {
     color: red;
-    text-decoration: none
+    text-decoration: none;
 }
 
+a:visited {
+    color: #183EA9;
+    text-decoration: none;
+}
 
+a:hover {
+    color: lightcoral;
+    text-decoration: underline;
+}
+a:active {
+    color: #42BFEF;
+    text-decoration: underline;
+}
